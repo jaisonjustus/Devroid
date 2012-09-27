@@ -17,7 +17,7 @@ class DevroidApp(QtGui.QMainWindow):
 		self.createForm = CreateNewProjectUI(self.mainWindow.MainFormFrame)
 		self.mainWindow.mainFormFrameLayout.addWidget(self.createForm.getFormWrapperFrame())
 		#self.mainWindow.mainFormFrameLayout.setGeometry(QtCore.QRect(0,0,100,100))
-		#self.mainWindow.MainFormFrame.setStyleSheet("QPushButton { background-color:none; }");
+		self.mainWindow.MainFormFrame.setStyleSheet("QPushButton { background-color:none; }");
 
 if __name__ == "__main__":
 	app = QtGui.QApplication(sys.argv)

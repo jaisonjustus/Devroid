@@ -2,5 +2,8 @@
 	"name" : "Devroid",
 	"version" : "1.0.0",
 	"license" : "GPL",
-	"source" : "github.com/jaisonjustus/devroid"
+	"source" : "https://github.com/jaisonjustus/devroid.git",
+	"dependencies" : [
+		"PyQt4"
+	]
 }

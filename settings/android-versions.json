@@ -1,0 +1,113 @@
+[
+	{
+		"name" : "Android beta",
+		"version" : "0",
+		"codename" : "beta",
+		"value" : "0",
+		"distribution" : "0.0%"
+	},
+
+	{
+		"name" : "Android 1.0",
+		"version" : "1.0",
+		"codename" : "",
+		"value" : "1",
+		"distribution" : "0.0%"
+	},
+
+	{
+		"name" : "Android 1.1",
+		"version" : "1.1",
+		"codename" : "",
+		"value" : "2",
+		"distribution" : "0.0%"
+	},
+
+	{
+		"name" : "Android 1.5 Cupcake",
+		"version" : "1.5",
+		"codename" : "Cupcake",
+		"value" : "3",
+		"distribution" : "0.2%"
+	},
+
+	{
+		"name" : "Android 1.6 Donut",
+		"version" : "1.6",
+		"codename" : "Donut",
+		"value" : "4",
+		"distribution" : "0.4%"
+	},
+
+	{
+		"name" : "Android 2.1 Eclair",
+		"version" : "2.1",
+		"codename" : "Eclair",
+		"value" : "7",
+		"distribution" : "3.7%"
+	},
+
+	{
+		"name" : "Android 2.2.x Froyo",
+		"version" : "2.2.x",
+		"codename" : "Froyo",
+		"value" : "8",
+		"distribution" : "14%"
+	},
+
+	{
+		"name" : "Android 2.3 - 2.3.2 Gingerbread",
+		"version" : "2.3.x",
+		"codename" : "Gingerbread",
+		"value" : "9",
+		"distribution" : "0.3%"
+	},
+
+	{
+		"name" : "Android 2.3.3 - 2.3.7 Gingerbread",
+		"version" : "2.3.x",
+		"codename" : "Gingerbread",
+		"value" : "10",
+		"distribution" : "57.2%"
+	},
+
+	{
+		"name" : "Android 3.1 Honeycomb",
+		"version" : "3.1",
+		"codename" : "Honeycomb",
+		"value" : "12",
+		"distribution" : "0.5%"
+	},
+
+	{
+		"name" : "Android 3.2 Honeycomb",
+		"version" : "3.2",
+		"codename" : "Honeycomb",
+		"value" : "13",
+		"distribution" : "1.6%"
+	},
+
+	{
+		"name" : "Android 4.0 - 4.0.2 Ice Cream Sandwich",
+		"version" : "4.0.x",
+		"codename" : "Ice Cream Sandwich",
+		"value" : "14",
+		"distribution" : "0.1%"
+	},
+
+	{
+		"name" : "Android 4.0.3 - 4.0.4 Ice Cream Sandwich",
+		"version" : "4.0.x",
+		"codename" : "Ice Cream Sandwich",
+		"value" : "15",
+		"distribution" : "20.8%"
+	},
+
+	{
+		"name" : "Android 4.1 Jelly Bean",
+		"version" : "4.1.x",
+		"codename" : "Jelly Bean",
+		"value" : "16",
+		"distribution" : "1.2%"
+	}
+]
