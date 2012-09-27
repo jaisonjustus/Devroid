@@ -1,4 +1,4 @@
 Devroid
 =======
 
-Android development toolkit
+Android development toolkit created using python with qt4 library
