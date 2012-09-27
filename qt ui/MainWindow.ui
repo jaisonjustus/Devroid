@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>803</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Android Development ToolKit</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res/deveroid.qrc">
+    <normaloff>:/images/android_logo_big.png</normaloff>:/images/android_logo_big.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-30</y>
+      <width>821</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(48, 48, 48);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>20</y>
+       <width>271</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/images/android_logo_big.png);
+border :0;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>310</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 11pt &quot;Roboto&quot;;
+color:white</string>
+     </property>
+     <property name="text">
+      <string>Development ToolKit</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>300</y>
+       <width>141</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 30pt &quot;Roboto&quot;;
+color:white</string>
+     </property>
+     <property name="text">
+      <string>Android</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>430</y>
+       <width>271</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout" columnstretch="0">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 75 italic 10pt &quot;Roboto&quot;;
+color: white;</string>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <property name="text">
+         <string>version : 0.0.0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="styleSheet">
+         <string notr="true">font: 75 italic 10pt &quot;Roboto&quot;;
+color: white;</string>
+        </property>
+        <property name="text">
+         <string>license : GPL License</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">font: 75 italic 10pt &quot;Roboto&quot;;
+color: white;</string>
+        </property>
+        <property name="text">
+         <string>source : github/jaisonjustus/devroid</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>350</y>
+       <width>261</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 11pt &quot;Roboto&quot;;
+color:white;</string>
+     </property>
+     <property name="text">
+      <string>Android development toolkit to create android projects and manage project binaries between emulators and devices. </string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QFrame" name="MainFormFrame">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>70</y>
+       <width>431</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:0;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>803</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Android</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionNewProject"/>
+    <addaction name="separator"/>
+    <addaction name="actionBuild_Project"/>
+    <addaction name="actionInstall_Project"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+    <addaction name="actionProjects"/>
+    <addaction name="actionAndroid_Settings"/>
+   </widget>
+   <addaction name="menuTools"/>
+   <addaction name="menuSettings"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNewProject">
+   <property name="text">
+    <string>New Project</string>
+   </property>
+  </action>
+  <action name="actionBuild_Project">
+   <property name="text">
+    <string>Build Project</string>
+   </property>
+  </action>
+  <action name="actionInstall_Project">
+   <property name="text">
+    <string>Install Project</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionProjects">
+   <property name="text">
+    <string>Projects</string>
+   </property>
+  </action>
+  <action name="actionAndroid_Settings">
+   <property name="text">
+    <string>Android Settings</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res/deveroid.qrc"/>
+ </resources>
+ <connections/>
+</ui>

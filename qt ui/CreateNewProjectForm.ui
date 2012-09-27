@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>396</width>
+    <height>326</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-10</y>
+     <width>431</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(38,38,38);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>361</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">font: 75 11pt &quot;Roboto&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>Project Name</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">font: 75 11pt &quot;Roboto&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>Andriod Version</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">font: 75 11pt &quot;Roboto&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>Project Path</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">font: 75 11pt &quot;Roboto&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>Activity</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="styleSheet">
+        <string notr="true">font: 75 11pt &quot;Roboto&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>Package</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QTextEdit" name="textEdit">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QTextEdit" name="textEdit_2">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QTextEdit" name="textEdit_3">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QTextEdit" name="textEdit_4">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QTextEdit" name="textEdit_5">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 16pt &quot;Roboto&quot;;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Create New Andriod Project</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>521</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>290</y>
+      <width>131</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton	{
+background-color:none;
+}
+
+QPushButton :hover	{
+background-color:rgb(255,255,255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Create Project</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
