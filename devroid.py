@@ -1,6 +1,7 @@
 from PyQt4 import QtGui,QtCore
 from drawable.MainWindow import *
 from modules.CreateNewProjectUI import *
+from modules.Settings import *
 import sys
 
 class DevroidApp(QtGui.QMainWindow):
@@ -9,15 +10,16 @@ class DevroidApp(QtGui.QMainWindow):
 		self.mainWindow = Ui_MainWindow()
 		self.mainWindow.setupUi(self)
 		self.eventBindings()
+		self.settings = Settings()
 
 	def eventBindings(self):
 		QtCore.QObject.connect(self.mainWindow.actionNewProject, QtCore.SIGNAL('triggered()'), self.createProject)
 
 	def createProject(self):
-		self.createForm = CreateNewProjectUI(self.mainWindow.MainFormFrame)
+		self.createForm = CreateNewProjectUI(self.settings, self.mainWindow.MainFormFrame)
 		self.mainWindow.mainFormFrameLayout.addWidget(self.createForm.getFormWrapperFrame())
-		#self.mainWindow.mainFormFrameLayout.setGeometry(QtCore.QRect(0,0,100,100))
-		self.mainWindow.MainFormFrame.setStyleSheet("QPushButton { background-color:none; }");
+		self.mainWindow.mainFormFrameLayout.setGeometry(QtCore.QRect(0,0,100,100))
+		#self.mainWindow.MainFormFrame.setStyleSheet("QPushButton { background-color:none; }");
 
 if __name__ == "__main__":
 	app = QtGui.QApplication(sys.argv)
