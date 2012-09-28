@@ -59,14 +59,14 @@ border :0;</string>
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>220</x>
+       <x>210</x>
        <y>310</y>
-       <width>131</width>
+       <width>111</width>
        <height>41</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 75 11pt &quot;Roboto&quot;;
+      <string notr="true">font: 63 10pt &quot;Open Sans&quot;;
 color:white</string>
      </property>
      <property name="text">
@@ -86,7 +86,7 @@ color:white</string>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 75 30pt &quot;Roboto&quot;;
+      <string notr="true">font: 75 bold 24pt &quot;Open Sans&quot;;
 color:white</string>
      </property>
      <property name="text">
@@ -97,7 +97,7 @@ color:white</string>
      <property name="geometry">
       <rect>
        <x>70</x>
-       <y>430</y>
+       <y>460</y>
        <width>271</width>
        <height>51</height>
       </rect>
@@ -109,7 +109,7 @@ color:white</string>
          <enum>Qt::LeftToRight</enum>
         </property>
         <property name="styleSheet">
-         <string notr="true">font: 75 italic 10pt &quot;Roboto&quot;;
+         <string notr="true">font: 25 9pt &quot;Open Sans&quot;;
 color: white;</string>
         </property>
         <property name="lineWidth">
@@ -123,7 +123,7 @@ color: white;</string>
       <item row="1" column="0">
        <widget class="QLabel" name="label_5">
         <property name="styleSheet">
-         <string notr="true">font: 75 italic 10pt &quot;Roboto&quot;;
+         <string notr="true">font: 25 9pt &quot;Open Sans&quot;;
 color: white;</string>
         </property>
         <property name="text">
@@ -134,7 +134,7 @@ color: white;</string>
       <item row="2" column="0">
        <widget class="QLabel" name="label_6">
         <property name="styleSheet">
-         <string notr="true">font: 75 italic 10pt &quot;Roboto&quot;;
+         <string notr="true">font: 25 9pt &quot;Open Sans&quot;;
 color: white;</string>
         </property>
         <property name="text">
@@ -148,14 +148,14 @@ color: white;</string>
      <property name="geometry">
       <rect>
        <x>70</x>
-       <y>350</y>
+       <y>360</y>
        <width>261</width>
        <height>71</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 75 11pt &quot;Roboto&quot;;
-color:white;</string>
+      <string notr="true">color:white;
+font: 25 11pt &quot;Open Sans&quot;;</string>
      </property>
      <property name="text">
       <string>Android development toolkit to create android projects and manage project binaries between emulators and devices. </string>
@@ -174,7 +174,7 @@ color:white;</string>
       </rect>
      </property>
      <property name="autoFillBackground">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
      <property name="styleSheet">
       <string notr="true">border:0;</string>
@@ -194,7 +194,7 @@ color:white;</string>
         <height>80</height>
        </rect>
       </property>
-      <layout class="QVBoxLayout" name="verticalLayout">
+      <layout class="QVBoxLayout" name="main_form_frame_layout">
        <property name="sizeConstraint">
         <enum>QLayout::SetFixedSize</enum>
        </property>
@@ -217,7 +217,7 @@ color:white;</string>
      <string>Android</string>
     </property>
     <addaction name="separator"/>
-    <addaction name="actionNewProject"/>
+    <addaction name="action_create_new_project"/>
     <addaction name="separator"/>
     <addaction name="actionBuild_Project"/>
     <addaction name="actionInstall_Project"/>
@@ -229,13 +229,12 @@ color:white;</string>
      <string>Settings</string>
     </property>
     <addaction name="actionProjects"/>
-    <addaction name="actionAndroid_Settings"/>
+    <addaction name="action_android_paths"/>
    </widget>
    <addaction name="menuTools"/>
    <addaction name="menuSettings"/>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
-  <action name="actionNewProject">
+  <action name="action_create_new_project">
    <property name="text">
     <string>New Project</string>
    </property>
@@ -260,7 +259,7 @@ color:white;</string>
     <string>Projects</string>
    </property>
   </action>
-  <action name="actionAndroid_Settings">
+  <action name="action_android_paths">
    <property name="text">
     <string>Android Settings</string>
    </property>

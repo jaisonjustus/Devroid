@@ -19,7 +19,7 @@ class CreateNewProjectUI:
 	def load_event_bindings(self):
 		QtCore.QObject.connect(self.form.create_android_project_button, QtCore.SIGNAL('pressed()'), self.get_project_details)
 
-	def getFormWrapperFrame(self):
+	def get_form_wrapper_frame(self):
 		return self.form.create_project_form
 
 	def get_project_details(self):

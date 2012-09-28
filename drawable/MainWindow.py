@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'MainWindow.ui'
 #
-# Created: Thu Sep 27 13:23:25 2012
+# Created: Fri Sep 28 16:00:18 2012
 #      by: PyQt4 UI code generator 4.8.5
 #
 # WARNING! All changes made in this file will be lost!
@@ -38,63 +38,65 @@ class Ui_MainWindow(object):
         self.frame_2.setFrameShadow(QtGui.QFrame.Raised)
         self.frame_2.setObjectName(_fromUtf8("frame_2"))
         self.label = QtGui.QLabel(self.frame)
-        self.label.setGeometry(QtCore.QRect(220, 310, 131, 41))
-        self.label.setStyleSheet(_fromUtf8("font: 75 11pt \"Roboto\";\n"
+        self.label.setGeometry(QtCore.QRect(210, 310, 111, 41))
+        self.label.setStyleSheet(_fromUtf8("font: 63 10pt \"Open Sans\";\n"
 "color:white"))
         self.label.setText(QtGui.QApplication.translate("MainWindow", "Development ToolKit", None, QtGui.QApplication.UnicodeUTF8))
         self.label.setWordWrap(True)
         self.label.setObjectName(_fromUtf8("label"))
         self.label_3 = QtGui.QLabel(self.frame)
         self.label_3.setGeometry(QtCore.QRect(70, 300, 141, 61))
-        self.label_3.setStyleSheet(_fromUtf8("font: 75 30pt \"Roboto\";\n"
+        self.label_3.setStyleSheet(_fromUtf8("font: 75 bold 24pt \"Open Sans\";\n"
 "color:white"))
         self.label_3.setText(QtGui.QApplication.translate("MainWindow", "Android", None, QtGui.QApplication.UnicodeUTF8))
         self.label_3.setObjectName(_fromUtf8("label_3"))
         self.gridLayoutWidget = QtGui.QWidget(self.frame)
-        self.gridLayoutWidget.setGeometry(QtCore.QRect(70, 430, 271, 51))
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(70, 460, 271, 51))
         self.gridLayoutWidget.setObjectName(_fromUtf8("gridLayoutWidget"))
         self.gridLayout = QtGui.QGridLayout(self.gridLayoutWidget)
         self.gridLayout.setMargin(0)
         self.gridLayout.setObjectName(_fromUtf8("gridLayout"))
         self.label_4 = QtGui.QLabel(self.gridLayoutWidget)
         self.label_4.setLayoutDirection(QtCore.Qt.LeftToRight)
-        self.label_4.setStyleSheet(_fromUtf8("font: 75 italic 10pt \"Roboto\";\n"
+        self.label_4.setStyleSheet(_fromUtf8("font: 25 9pt \"Open Sans\";\n"
 "color: white;"))
         self.label_4.setLineWidth(0)
         self.label_4.setText(QtGui.QApplication.translate("MainWindow", "version : 0.0.0", None, QtGui.QApplication.UnicodeUTF8))
         self.label_4.setObjectName(_fromUtf8("label_4"))
         self.gridLayout.addWidget(self.label_4, 0, 0, 1, 1)
         self.label_5 = QtGui.QLabel(self.gridLayoutWidget)
-        self.label_5.setStyleSheet(_fromUtf8("font: 75 italic 10pt \"Roboto\";\n"
+        self.label_5.setStyleSheet(_fromUtf8("font: 25 9pt \"Open Sans\";\n"
 "color: white;"))
         self.label_5.setText(QtGui.QApplication.translate("MainWindow", "license : GPL License", None, QtGui.QApplication.UnicodeUTF8))
         self.label_5.setObjectName(_fromUtf8("label_5"))
         self.gridLayout.addWidget(self.label_5, 1, 0, 1, 1)
         self.label_6 = QtGui.QLabel(self.gridLayoutWidget)
-        self.label_6.setStyleSheet(_fromUtf8("font: 75 italic 10pt \"Roboto\";\n"
+        self.label_6.setStyleSheet(_fromUtf8("font: 25 9pt \"Open Sans\";\n"
 "color: white;"))
         self.label_6.setText(QtGui.QApplication.translate("MainWindow", "source : github/jaisonjustus/devroid", None, QtGui.QApplication.UnicodeUTF8))
         self.label_6.setObjectName(_fromUtf8("label_6"))
         self.gridLayout.addWidget(self.label_6, 2, 0, 1, 1)
         self.label_7 = QtGui.QLabel(self.frame)
-        self.label_7.setGeometry(QtCore.QRect(70, 350, 261, 71))
-        self.label_7.setStyleSheet(_fromUtf8("font: 75 11pt \"Roboto\";\n"
-"color:white;"))
+        self.label_7.setGeometry(QtCore.QRect(70, 360, 261, 71))
+        self.label_7.setStyleSheet(_fromUtf8("color:white;\n"
+"font: 25 11pt \"Open Sans\";"))
         self.label_7.setText(QtGui.QApplication.translate("MainWindow", "Android development toolkit to create android projects and manage project binaries between emulators and devices. ", None, QtGui.QApplication.UnicodeUTF8))
         self.label_7.setWordWrap(True)
         self.label_7.setObjectName(_fromUtf8("label_7"))
         self.MainFormFrame = QtGui.QFrame(self.frame)
         self.MainFormFrame.setGeometry(QtCore.QRect(360, 70, 431, 501))
+        self.MainFormFrame.setAutoFillBackground(False)
         self.MainFormFrame.setStyleSheet(_fromUtf8("border:0;"))
         self.MainFormFrame.setFrameShape(QtGui.QFrame.StyledPanel)
         self.MainFormFrame.setFrameShadow(QtGui.QFrame.Raised)
         self.MainFormFrame.setObjectName(_fromUtf8("MainFormFrame"))
         self.verticalLayoutWidget = QtGui.QWidget(self.MainFormFrame)
-        self.verticalLayoutWidget.setGeometry(QtCore.QRect(0, 0, 431, 501))
+        self.verticalLayoutWidget.setGeometry(QtCore.QRect(0, 0, 160, 80))
         self.verticalLayoutWidget.setObjectName(_fromUtf8("verticalLayoutWidget"))
-        self.mainFormFrameLayout = QtGui.QVBoxLayout(self.verticalLayoutWidget)
-        self.mainFormFrameLayout.setMargin(0)
-        self.mainFormFrameLayout.setObjectName(_fromUtf8("mainFormFrameLayout"))
+        self.main_form_frame_layout = QtGui.QVBoxLayout(self.verticalLayoutWidget)
+        self.main_form_frame_layout.setSizeConstraint(QtGui.QLayout.SetFixedSize)
+        self.main_form_frame_layout.setMargin(0)
+        self.main_form_frame_layout.setObjectName(_fromUtf8("main_form_frame_layout"))
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtGui.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 803, 25))
@@ -106,12 +108,9 @@ class Ui_MainWindow(object):
         self.menuSettings.setTitle(QtGui.QApplication.translate("MainWindow", "Settings", None, QtGui.QApplication.UnicodeUTF8))
         self.menuSettings.setObjectName(_fromUtf8("menuSettings"))
         MainWindow.setMenuBar(self.menubar)
-        self.statusbar = QtGui.QStatusBar(MainWindow)
-        self.statusbar.setObjectName(_fromUtf8("statusbar"))
-        MainWindow.setStatusBar(self.statusbar)
         self.actionNewProject = QtGui.QAction(MainWindow)
         self.actionNewProject.setText(QtGui.QApplication.translate("MainWindow", "New Project", None, QtGui.QApplication.UnicodeUTF8))
-        self.actionNewProject.setObjectName(_fromUtf8("actionNewProject"))
+        self.actionNewProject.setObjectName(_fromUtf8("action_create_new_project"))
         self.actionBuild_Project = QtGui.QAction(MainWindow)
         self.actionBuild_Project.setText(QtGui.QApplication.translate("MainWindow", "Build Project", None, QtGui.QApplication.UnicodeUTF8))
         self.actionBuild_Project.setObjectName(_fromUtf8("actionBuild_Project"))
@@ -124,9 +123,9 @@ class Ui_MainWindow(object):
         self.actionProjects = QtGui.QAction(MainWindow)
         self.actionProjects.setText(QtGui.QApplication.translate("MainWindow", "Projects", None, QtGui.QApplication.UnicodeUTF8))
         self.actionProjects.setObjectName(_fromUtf8("actionProjects"))
-        self.actionAndroid_Settings = QtGui.QAction(MainWindow)
-        self.actionAndroid_Settings.setText(QtGui.QApplication.translate("MainWindow", "Android Settings", None, QtGui.QApplication.UnicodeUTF8))
-        self.actionAndroid_Settings.setObjectName(_fromUtf8("actionAndroid_Settings"))
+        self.action_android_paths = QtGui.QAction(MainWindow)
+        self.action_android_paths.setText(QtGui.QApplication.translate("MainWindow", "Android Settings", None, QtGui.QApplication.UnicodeUTF8))
+        self.action_android_paths.setObjectName(_fromUtf8("action_android_paths"))
         self.menuTools.addSeparator()
         self.menuTools.addAction(self.actionNewProject)
         self.menuTools.addSeparator()
@@ -135,7 +134,7 @@ class Ui_MainWindow(object):
         self.menuTools.addSeparator()
         self.menuTools.addAction(self.actionExit)
         self.menuSettings.addAction(self.actionProjects)
-        self.menuSettings.addAction(self.actionAndroid_Settings)
+        self.menuSettings.addAction(self.action_android_paths)
         self.menubar.addAction(self.menuTools.menuAction())
         self.menubar.addAction(self.menuSettings.menuAction())
 

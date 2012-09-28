@@ -1,0 +1,57 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'AndroidSettings.ui'
+#
+# Created: Fri Sep 28 15:54:23 2012
+#      by: PyQt4 UI code generator 4.8.5
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    _fromUtf8 = lambda s: s
+
+class Ui_android_settings_form(object):
+    def setupUi(self, android_settings_form):
+        android_settings_form.setObjectName(_fromUtf8("android_settings_form"))
+        android_settings_form.resize(431, 305)
+        android_settings_form.setWindowTitle(QtGui.QApplication.translate("android_settings_form", "Form", None, QtGui.QApplication.UnicodeUTF8))
+        android_settings_form.setStyleSheet(_fromUtf8("background-color:rgb(38,38,38);"))
+        self.android_settings_form_frame = QtGui.QFrame(android_settings_form)
+        self.android_settings_form_frame.setGeometry(QtCore.QRect(0, 0, 431, 301))
+        self.android_settings_form_frame.setStyleSheet(_fromUtf8("background-color:rgb(38,38,38);\n"
+"border:0;"))
+        self.android_settings_form_frame.setFrameShape(QtGui.QFrame.StyledPanel)
+        self.android_settings_form_frame.setFrameShadow(QtGui.QFrame.Raised)
+        self.android_settings_form_frame.setObjectName(_fromUtf8("android_settings_form_frame"))
+        self.gridLayoutWidget = QtGui.QWidget(self.android_settings_form_frame)
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(20, 20, 391, 41))
+        self.gridLayoutWidget.setObjectName(_fromUtf8("gridLayoutWidget"))
+        self.gridLayout = QtGui.QGridLayout(self.gridLayoutWidget)
+        self.gridLayout.setMargin(0)
+        self.gridLayout.setObjectName(_fromUtf8("gridLayout"))
+        self.label = QtGui.QLabel(self.gridLayoutWidget)
+        self.label.setStyleSheet(_fromUtf8("font: 11pt \"Open Sans\";\n"
+"color:white"))
+        self.label.setText(QtGui.QApplication.translate("android_settings_form", "Android tools", None, QtGui.QApplication.UnicodeUTF8))
+        self.label.setObjectName(_fromUtf8("label"))
+        self.gridLayout.addWidget(self.label, 0, 0, 1, 1)
+        self.project_tools_path_test = QtGui.QTextEdit(self.gridLayoutWidget)
+        self.project_tools_path_test.setMinimumSize(QtCore.QSize(0, 30))
+        self.project_tools_path_test.setMaximumSize(QtCore.QSize(16777215, 30))
+        self.project_tools_path_test.setObjectName(_fromUtf8("project_tools_path_test"))
+        self.gridLayout.addWidget(self.project_tools_path_test, 0, 1, 1, 1)
+        self.save_android_settings_button = QtGui.QPushButton(self.android_settings_form_frame)
+        self.save_android_settings_button.setGeometry(QtCore.QRect(310, 260, 97, 27))
+        self.save_android_settings_button.setText(QtGui.QApplication.translate("android_settings_form", "Save", None, QtGui.QApplication.UnicodeUTF8))
+        self.save_android_settings_button.setObjectName(_fromUtf8("save_android_settings_button"))
+
+        self.retranslateUi(android_settings_form)
+        QtCore.QMetaObject.connectSlotsByName(android_settings_form)
+
+    def retranslateUi(self, android_settings_form):
+        pass
+

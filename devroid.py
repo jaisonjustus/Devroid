@@ -9,16 +9,17 @@ class DevroidApp(QtGui.QMainWindow):
 		QtGui.QWidget.__init__(self,parent)
 		self.mainWindow = Ui_MainWindow()
 		self.mainWindow.setupUi(self)
-		self.eventBindings()
+		self.event_bindings()
 		self.settings = Settings()
 
-	def eventBindings(self):
-		QtCore.QObject.connect(self.mainWindow.actionNewProject, QtCore.SIGNAL('triggered()'), self.createProject)
+	def event_bindings(self):
+		print "event bindings"
+		QtCore.QObject.connect(self.mainWindow.actionNewProject, QtCore.SIGNAL('triggered()'), self.create_new_project)
 
-	def createProject(self):
-		self.createForm = CreateNewProjectUI(self.settings, self.mainWindow.MainFormFrame)
-		self.mainWindow.mainFormFrameLayout.addWidget(self.createForm.getFormWrapperFrame())
-		self.mainWindow.mainFormFrameLayout.setGeometry(QtCore.QRect(0,0,100,100))
+	def create_new_project(self):
+		self.create_app_form = CreateNewProjectUI(self.settings, self.mainWindow.MainFormFrame)
+		self.mainWindow.main_form_frame_layout.addWidget(self.create_app_form.get_form_wrapper_frame())
+		#self.mainWindow.main_form_frame_layout.setGeometry(QtCore.QRect(0,0,100,100))
 		#self.mainWindow.MainFormFrame.setStyleSheet("QPushButton { background-color:none; }");
 
 if __name__ == "__main__":
