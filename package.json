@@ -1,5 +1,7 @@
 {
 	"name" : "Devroid",
+	"author" : "jaison.justus",
+	"email" : "jaison.justus.lp@gmail.com",
 	"version" : "1.0.0",
 	"license" : "GPL",
 	"source" : "https://github.com/jaisonjustus/devroid.git",
